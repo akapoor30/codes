@@ -2,10 +2,10 @@
 using namespace std;
 int main(){
     int n;
-    count<<"Enter n :";
-    cin>>n;
+    count<<"Enter number :";
+    cin>>number;
     int count=0;
-    for(int i=5;i<=n;i++){
+    for(int i=5;i<=number;i++){
         if(i%5==0){
             int temp = i/5;
             count = count + temp;
